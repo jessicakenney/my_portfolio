@@ -28,25 +28,33 @@ h2 * {
   padding-top: 100%;
 }
 .col-md-3{
-  text-align: center;
   color: #2C464F;
   background-color: #F8F6ED;
   padding-bottom: 100%;
 }
 .currentcol{
+  text-align: center;
+  color: #2C464F;
   background-color: #F8F6ED;
-  padding-top: 100%;
   padding-bottom: 100%;
+  float: left;
+  width: 28%;
 }
 .jobcol{
+  text-align: center;
+  color: #2C464F;
   background-color: #CED3CF;
-  padding-top: 100%;
   padding-bottom: 100%;
+  float: left;
+  width: 28%;
 }
 .educol{
+  text-align: center;
+  color: #2C464F;
   background-color: #E4E4E4;
-  padding-top: 100%;
   padding-bottom: 100%;
+  float: left;
+  width: 28%;
 }
 .worksidebar{
   /*border: 2px solid #2C464F;*/
@@ -55,5 +63,5 @@ h2 * {
   padding-bottom: 100%;
   /*background-color: #ECEADE;*/
   background-color: white;
-  width: 18%;
+  width: 15%;
 }
