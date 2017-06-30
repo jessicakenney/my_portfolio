@@ -1,14 +1,12 @@
-.img-circle{
-  width: 200px;
-  height: 300px;
-}
 .jumbotron{
   background-color: white;
   border: 2px solid #2C464F;
+  font-family: 'Oxygen', sans-serif;
   color: #2C464F;
 }
 h2 * {
   color: #2C464F;
+  font-family: 'Oxygen', sans-serif;
 }
 .radishimg{
   width: 200px;
@@ -18,12 +16,21 @@ h2 * {
   color: #2C464F;
   text-align: center;
   padding-top: 100%;
+  font-family: 'Oxygen', sans-serif;
+}
+.aboutme{
+  font-family: 'Oxygen', sans-serif;
+  padding-top: 5%;
+  color: #2C464F;
+  font-size: 16px;
 }
 .workcolumn{
+  font-family: 'Oxygen', sans-serif;
   text-align: center;
   padding-top: 100%;
 }
 .contactcolumn{
+  font-family: 'Oxygen', sans-serif;
   text-align: center;
   padding-top: 100%;
 }
@@ -32,24 +39,36 @@ h2 * {
   background-color: #F8F6ED;
   padding-bottom: 100%;
 }
+.currentcol h2{
+  font-family: 'Oxygen', sans-serif;
+}
+.currentcol h4{
+  font-family: 'Oxygen', sans-serif;
+}
 .currentcol{
-  text-align: center;
+  text-align: left;
   color: #2C464F;
   background-color: #F8F6ED;
   padding-bottom: 100%;
   float: left;
   width: 28%;
 }
+.jobcol h2{
+  font-family: 'Oxygen', sans-serif;
+}
 .jobcol{
-  text-align: center;
+  text-align: left;
   color: #2C464F;
   background-color: #CED3CF;
   padding-bottom: 100%;
   float: left;
   width: 28%;
 }
+.educol h2{
+  font-family: 'Oxygen', sans-serif;
+}
 .educol{
-  text-align: center;
+  text-align: left;
   color: #2C464F;
   background-color: #E4E4E4;
   padding-bottom: 100%;
@@ -57,11 +76,9 @@ h2 * {
   width: 28%;
 }
 .worksidebar{
-  /*border: 2px solid #2C464F;*/
   margin: 5px;
   float: left;
   padding-bottom: 100%;
-  /*background-color: #ECEADE;*/
   background-color: white;
   width: 15%;
 }
