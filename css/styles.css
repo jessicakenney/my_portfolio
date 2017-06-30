@@ -45,6 +45,11 @@ h2 * {
 .currentcol h4{
   font-family: 'Oxygen', sans-serif;
 }
+.cheetah{
+  color: red;
+  font-size: 16px;
+  font-style: italic;
+}
 .currentcol{
   text-align: left;
   color: #2C464F;
