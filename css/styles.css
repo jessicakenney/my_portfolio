@@ -1,22 +1,59 @@
-/*index.html CSS*/
-.img-circle {
+.img-circle{
   width: 200px;
   height: 300px;
 }
-.aboutcolumn {
-  background-color: #C4EACD;
+.jumbotron{
+  background-color: white;
+  border: 2px solid #2C464F;
+  color: #2C464F;
 }
-.workcolumn {
+h2 * {
+  color: #2C464F;
+}
+.radishimg{
+  width: 200px;
+  height: 300px;
+}
+.aboutcolumn{
+  color: #2C464F;
+  text-align: center;
+  padding-top: 100%;
+}
+.workcolumn{
+  text-align: center;
+  padding-top: 100%;
+}
+.contactcolumn{
+  text-align: center;
+  padding-top: 100%;
+}
+.col-md-3{
+  text-align: center;
+  color: #2C464F;
+  background-color: #F8F6ED;
+  padding-bottom: 100%;
+}
+.currentcol{
+  background-color: #F8F6ED;
+  padding-top: 100%;
+  padding-bottom: 100%;
+}
+.jobcol{
   background-color: #CED3CF;
+  padding-top: 100%;
+  padding-bottom: 100%;
 }
-.contactcolumn {
-  background-color: #D1CB6D;
+.educol{
+  background-color: #E4E4E4;
+  padding-top: 100%;
+  padding-bottom: 100%;
 }
-.worksidebar {
-  border: 1px solid #2C464F;
+.worksidebar{
+  /*border: 2px solid #2C464F;*/
   margin: 5px;
   float: left;
   padding-bottom: 100%;
-  background-color: #ECEADE;
-  width: 20%;
+  /*background-color: #ECEADE;*/
+  background-color: white;
+  width: 18%;
 }
