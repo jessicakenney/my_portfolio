@@ -1,0 +1,22 @@
+/*index.html CSS*/
+.img-circle {
+  width: 200px;
+  height: 300px;
+}
+.aboutcolumn {
+  background-color: #C4EACD;
+}
+.workcolumn {
+  background-color: #CED3CF;
+}
+.contactcolumn {
+  background-color: #D1CB6D;
+}
+.worksidebar {
+  border: 1px solid #2C464F;
+  margin: 5px;
+  float: left;
+  padding-bottom: 100%;
+  background-color: #ECEADE;
+  width: 20%;
+}
