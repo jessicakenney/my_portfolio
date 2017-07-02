@@ -1,89 +1,52 @@
-.jumbotron{
+/*index.html styling*/
+.jumbotron {
+  color: #2C464F;
   background-color: white;
   border: 2px solid #2C464F;
-  font-family: 'Oxygen', sans-serif;
-  color: #2C464F;
+  margin-top: 10px;
 }
-h2 * {
-  color: #2C464F;
-  font-family: 'Oxygen', sans-serif;
-}
+
 .radishimg{
   width: 200px;
   height: 300px;
 }
-.aboutcolumn{
-  color: #2C464F;
+.col-md-4 {
+  padding-top: 10%;
+}
+h1, h2, h3, h4 {
   text-align: center;
-  padding-top: 100%;
   font-family: 'Oxygen', sans-serif;
 }
+
+/* work.html*/
+
+.sidebar{
+  margin: 5px;
+  float: left;
+  height: 800px;
+  background-color: white;
+  width: 15%;
+}
+.column{
+  text-align: left;
+  color: #2C464F;
+  float: left;
+  width: 28%;
+  height: 800px;
+}
+.column#current{
+  background-color: #F8F6ED;
+}
+.column#job{
+  background-color: #CED3CF;
+}
+.column#edu{
+  background-color: #E4E4E4;
+}
+/*About html*/
 .aboutme{
   font-family: 'Oxygen', sans-serif;
   padding-top: 5%;
   color: #2C464F;
   font-size: 16px;
-}
-.workcolumn{
-  font-family: 'Oxygen', sans-serif;
-  text-align: center;
-  padding-top: 100%;
-}
-.contactcolumn{
-  font-family: 'Oxygen', sans-serif;
-  text-align: center;
-  padding-top: 100%;
-}
-.col-md-3{
-  color: #2C464F;
-  background-color: #F8F6ED;
-  padding-bottom: 100%;
-}
-.currentcol h2{
-  font-family: 'Oxygen', sans-serif;
-}
-.currentcol h4{
-  font-family: 'Oxygen', sans-serif;
-}
-.cheetah{
-  color: red;
-  font-size: 16px;
-  font-style: italic;
-}
-.currentcol{
-  text-align: left;
-  color: #2C464F;
-  background-color: #F8F6ED;
-  padding-bottom: 100%;
-  float: left;
-  width: 28%;
-}
-.jobcol h2{
-  font-family: 'Oxygen', sans-serif;
-}
-.jobcol{
-  text-align: left;
-  color: #2C464F;
-  background-color: #CED3CF;
-  padding-bottom: 100%;
-  float: left;
-  width: 28%;
-}
-.educol h2{
-  font-family: 'Oxygen', sans-serif;
-}
-.educol{
-  text-align: left;
-  color: #2C464F;
-  background-color: #E4E4E4;
-  padding-bottom: 100%;
-  float: left;
-  width: 28%;
-}
-.worksidebar{
-  margin: 5px;
-  float: left;
-  padding-bottom: 100%;
-  background-color: white;
-  width: 15%;
 }
