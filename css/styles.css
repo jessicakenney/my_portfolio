@@ -1,30 +1,29 @@
-/*index.html styling*/
 .jumbotron {
   color: #2C464F;
-  background-color: white;
-  border: 2px solid #2C464F;
+  background-color: #F8F6ED;
+  border: 2px solid #888888;
   margin-top: 10px;
 }
-
-.radishimg{
-  width: 200px;
-  height: 300px;
+.img-circle{
+  width: 175px;
+  height: 275px;
 }
-.col-md-4 {
+.sidebar .img-circle{
+  width: 100px;
+  height: 175px;
+}
+.col-md-4{
   padding-top: 10%;
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4{
   text-align: center;
-  font-family: 'Oxygen', sans-serif;
+  color: #2C464F;
+  font-family: 'Amatic SC', cursive;
 }
-
-/* work.html*/
-
 .sidebar{
-  margin: 5px;
   float: left;
   height: 800px;
-  background-color: white;
+  background-color: #F8F6ED;
   width: 15%;
 }
 .column{
@@ -33,9 +32,14 @@ h1, h2, h3, h4 {
   float: left;
   width: 28%;
   height: 800px;
+  padding: 10px;
+  border-bottom: 2px solid #888888;
+  border-top: 2px solid #888888;
+  border-right: 2px solid #888888;
 }
 .column#current{
-  background-color: #F8F6ED;
+  background-color: white;
+  border-left: 2px solid #888888;
 }
 .column#job{
   background-color: #CED3CF;
@@ -43,10 +47,20 @@ h1, h2, h3, h4 {
 .column#edu{
   background-color: #E4E4E4;
 }
-/*About html*/
-.aboutme{
-  font-family: 'Oxygen', sans-serif;
-  padding-top: 5%;
-  color: #2C464F;
+.cheetah{
+  color: #a82d50;
   font-size: 16px;
+  font-style: italic;
+}
+.aboutme{
+  padding-top: 5%;
+  padding-left: 5%;
+  margin-left: 200px;
+  color: #2C464F;
+  font-size: 14px;
+}
+.aboutme h2{
+  text-align: left;
+  border-bottom: 2px solid #888888;
+  width: 500px;
 }
