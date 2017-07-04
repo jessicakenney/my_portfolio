@@ -7,6 +7,9 @@
 .img-circle{
   width: 175px;
   height: 275px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .sidebar .img-circle{
   width: 100px;
@@ -14,6 +17,8 @@
 }
 .col-md-4{
   padding-top: 10%;
+  display: block;
+  text-align: center;
 }
 h1, h2, h3, h4{
   text-align: center;
