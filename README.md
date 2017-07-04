@@ -10,8 +10,12 @@ _This application is a central hub website for all things pertinent to represent
 
 ## Setup/Installation Requirements
 
+* _Link to GitHub Page:_
+* _http://jessicakenney.github.io/my_portfolio_
+* __
+* _Clone repository:_
 * _git clone http://github.com/jessicakenney/my_portfolio.git_
-* _open index.html in favorite web browser_
+* _Open index.html in favorite web browser_
 
 ## Known Bugs
 
